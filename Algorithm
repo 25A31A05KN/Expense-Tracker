@@ -1,0 +1,63 @@
+Algorithm: Expense Tracker System (C++)
+
+1. Start the program.
+
+2. Display a menu with the following options:
+   
+   1. Add Expense
+   2. View Expenses
+   3. Total Expense
+   4. Add Income
+   5. Savings
+   6. Exit
+
+3. Read the user’s choice.
+
+4. If the choice is Add Expense:
+   
+   - Input amount from the user
+   - Input category from the user
+   - Open the file "expenses.txt" in append mode
+   - Store the amount and category in the file
+   - Close the file
+   - Display confirmation message
+
+5. If the choice is View Expenses:
+   
+   - Open the file "expenses.txt" in read mode
+   - Read each record (amount and category)
+   - Display all records
+   - Close the file
+
+6. If the choice is Total Expense:
+   
+   - Initialize total = 0
+   - Open the file "expenses.txt"
+   - Read each record
+   - Add amount to total
+   - Repeat until end of file
+   - Display total expense
+   - Close the file
+
+7. If the choice is Add Income:
+   
+   - Input income from the user
+   - Open the file "income.txt" in append mode
+   - Store income in the file
+   - Close the file
+   - Display confirmation message
+
+8. If the choice is Savings:
+   
+   - Initialize totalExpense = 0
+   - Read all expense records from "expenses.txt"
+   - Add all amounts to totalExpense
+   - Initialize totalIncome = 0
+   - Read all values from "income.txt"
+   - Add all to totalIncome
+   - Calculate savings = totalIncome – totalExpense
+   - Display total income, total expense, and savings
+
+9. Repeat steps 2–8 until the user selects Exit.
+
+10. Stop the program.
